@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.zerobank.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 379.794 s <<< FAILURE! - in com.zerobank.runners.CukesRunner
+Search date range(Find Transactions in Account Activity.)  Time elapsed: 28.557 s  <<< FAILURE!
+java.lang.AssertionError: verify actual dates are between start date and end date
+
+Search "ONLINE" description(Find Transactions in Account Activity.)  Time elapsed: 24.462 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+Search description case insensitive(Find Transactions in Account Activity.)  Time elapsed: 27.187 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+Type #1(Find Transactions in Account Activity.)  Time elapsed: 32.729 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='filtered_transactions_for_account']//th' (tried for 10 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='filtered_transactions_for_account']//th"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-28D5O466', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [99ca98dbcc403f7b2fb624b8471b1295, findElement {using=xpath, value=//div[@id='filtered_transactions_for_account']//th}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\benyu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62936/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 99ca98dbcc403f7b2fb624b8471b1295
+

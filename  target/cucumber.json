@@ -1,0 +1,583 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-09T13:22:21.680Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11069147300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "select \"Savings\" on the Account Summary Page",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;select-\"\u003caccounttype\u003e\"-on-the-account-summary-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 672208400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6314938500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5065593000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Account Summary\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Summary\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.theUserNavigatesToPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2720474300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on\t\"Savings\"\tlink on\tthe\tAccount\tSummary\tpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.theUserClicksOnLinkOnTheAccountSummaryPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]Account Activity\u003e but was:\u003c[Zero - ]Account Activity\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.zerobank.stepdefinitions.AccountsActivityStepDefs.thePageShouldBeDisplayed(AccountsActivityStepDefs.java:47)\r\n\tat ✽.the \"Account Activity\" page should be displayed(file:///C:/Users/benyu/IdeaProjects/zerobank-automation/src/test/resources/features/AccountActivityNavigation.feature:8)\r\n",
+              "duration": 9937600,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the \"Account Activity\" page should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.thePageShouldBeDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Account\tdrop down should have \"Savings\" selected",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-09T13:22:47.610Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11206124100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "select \"Brokerage\" on the Account Summary Page",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;select-\"\u003caccounttype\u003e\"-on-the-account-summary-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 678527900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8539322100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4926660700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Account Summary\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Summary\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.theUserNavigatesToPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3370725400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on\t\"Brokerage\"\tlink on\tthe\tAccount\tSummary\tpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brokerage\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.theUserClicksOnLinkOnTheAccountSummaryPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]Account Activity\u003e but was:\u003c[Zero - ]Account Activity\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.zerobank.stepdefinitions.AccountsActivityStepDefs.thePageShouldBeDisplayed(AccountsActivityStepDefs.java:47)\r\n\tat ✽.the \"Account Activity\" page should be displayed(file:///C:/Users/benyu/IdeaProjects/zerobank-automation/src/test/resources/features/AccountActivityNavigation.feature:8)\r\n",
+              "duration": 10780600,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the \"Account Activity\" page should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.thePageShouldBeDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Account\tdrop down should have \"Brokerage\" selected",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-09T13:23:16.354Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10465947500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "select \"Checking\" on the Account Summary Page",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;select-\"\u003caccounttype\u003e\"-on-the-account-summary-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 788126400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6412463800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4576072600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Account Summary\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Summary\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.theUserNavigatesToPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3248945600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on\t\"Checking\"\tlink on\tthe\tAccount\tSummary\tpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Checking\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.theUserClicksOnLinkOnTheAccountSummaryPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]Account Activity\u003e but was:\u003c[Zero - ]Account Activity\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.zerobank.stepdefinitions.AccountsActivityStepDefs.thePageShouldBeDisplayed(AccountsActivityStepDefs.java:47)\r\n\tat ✽.the \"Account Activity\" page should be displayed(file:///C:/Users/benyu/IdeaProjects/zerobank-automation/src/test/resources/features/AccountActivityNavigation.feature:8)\r\n",
+              "duration": 6979000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the \"Account Activity\" page should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.thePageShouldBeDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Account\tdrop down should have \"Checking\" selected",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-09T13:23:41.861Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10561086200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "select \"Credit Card\" on the Account Summary Page",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;select-\"\u003caccounttype\u003e\"-on-the-account-summary-page;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 676619700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6135245200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3542257200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Account Summary\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Summary\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.theUserNavigatesToPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2836860300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on\t\"Credit Card\"\tlink on\tthe\tAccount\tSummary\tpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credit Card\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.theUserClicksOnLinkOnTheAccountSummaryPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]Account Activity\u003e but was:\u003c[Zero - ]Account Activity\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.zerobank.stepdefinitions.AccountsActivityStepDefs.thePageShouldBeDisplayed(AccountsActivityStepDefs.java:47)\r\n\tat ✽.the \"Account Activity\" page should be displayed(file:///C:/Users/benyu/IdeaProjects/zerobank-automation/src/test/resources/features/AccountActivityNavigation.feature:8)\r\n",
+              "duration": 12732300,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the \"Account Activity\" page should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.thePageShouldBeDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Account\tdrop down should have \"Credit Card\" selected",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-09T13:24:05.638Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11549279400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "select \"Loan\" on the Account Summary Page",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;select-\"\u003caccounttype\u003e\"-on-the-account-summary-page;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 720014600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6407591000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4093472100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Account Summary\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Summary\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.theUserNavigatesToPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3527560400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on\t\"Loan\"\tlink on\tthe\tAccount\tSummary\tpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loan\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.theUserClicksOnLinkOnTheAccountSummaryPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]Account Activity\u003e but was:\u003c[Zero - ]Account Activity\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.zerobank.stepdefinitions.AccountsActivityStepDefs.thePageShouldBeDisplayed(AccountsActivityStepDefs.java:47)\r\n\tat ✽.the \"Account Activity\" page should be displayed(file:///C:/Users/benyu/IdeaProjects/zerobank-automation/src/test/resources/features/AccountActivityNavigation.feature:8)\r\n",
+              "duration": 8975600,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the \"Account Activity\" page should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivityStepDefs.thePageShouldBeDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Account\tdrop down should have \"Loan\" selected",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Navigating\tto\tspecific\taccounts\tin\tAccounts\tActivity",
+    "description": "",
+    "id": "navigating-to-specific-accounts-in-accounts-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivityNavigation.feature",
+    "tags": []
+  }
+]
